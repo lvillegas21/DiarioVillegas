@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-bottom: 3px;
+    border-bottom: double 3px black;
+    background-image: linear-gradient( #2C3E50, #C0C0C0);
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div {
+    margin-top: 5px;
+}
+
+header div a {
+    color: #1B5E20;
+    font-style: italic;
+    font-family: serif;
+    text-decoration: none;
+    padding: 7px 1% 3px 1%;
+    transition: 0.5s;
+}
+
+header div p {
+    font-style: italic;
+    font-family: serif;
+}
+
+footer {
+    color: #1B5E20;
+    font-style: italic;
+    font-family: serif;
+    padding-left: 1%;
+    border-top: double 3px black;
+    padding-top: 3px;
+    background-image: linear-gradient( #C0C0C0, #2C3E50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #1B5E20;
+    font-style: italic;
+    font-family: serif;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0px 1%;
+}
+
+footer p {
+    color: #1B5E20;
+    font-style: italic;
+    font-family: serif;
+}
+
+footer div p {
+    padding-bottom: 5px;
+}
+
+p {
+    color: black;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding-left: 1%;
+    margin: 3px 0px;
+    grid-area: texto;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+}
+
+ul ul li {
+    display: block;
+}
+
+.nombreDiario {
+    color: #33FF00;
+}
+
+.bordesRedondos {
+    border-radius: 2%;
+}
+
+.centrarImg {
+    display: block;
+    margin: auto
+}
+
+.centrarTxt {
+    text-align: center;
+}
+
+.linea {
+    display: inline;
+}
+
+.tamañoDiv {
+    width: 285px;
+    height: 35px;
+}
+
+.margenes {
+    margin: 0px 2px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas: "img título" "img texto";
+    grid-template-rows: 0.5fr 2.5fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+@media (max-width: 575px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas: "título" "img" "texto";
+        grid-template-rows: 0.5fr 2.5fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas: "título" "img" "texto";
+        grid-template-rows: 0.5fr 2.5fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas: "título título" "img texto";
+        grid-template-rows: 0.5fr 2.5fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas: "título título" "img texto";
+        grid-template-rows: 0.5fr 2.5fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas: "img título" "img texto";
+        grid-template-rows: 0.5fr 2.5fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
