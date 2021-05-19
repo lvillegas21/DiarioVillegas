@@ -95,6 +95,10 @@ li {
     margin: 0px 2px;
 }
 
+.padding {
+    padding-left: 1%;
+}
+
 .contenedor {
     display: grid;
     grid-template-areas: "img título" "img texto";
