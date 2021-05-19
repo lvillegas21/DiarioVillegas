@@ -1,14 +1,14 @@
 @charset "UTF-8";
 main {
-  background-color: #FFF8Dc;
+  background-color: #FFFFF0;
   line-height: 1.3; }
   main h1 {
-    color: #145A32;
+    color: #5C6BC0;
     font-style: italic;
-    font-family: serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 36px;
-    margin: 10px 0px;
+    padding: 10px 0px;
     text-decoration: underline;
     grid-area: principal;
     animation: título 4.5s ease-in-out infinite; }
@@ -23,9 +23,9 @@ main {
     background-color: #C0C0C0; }
   100% { } }
   main h2 {
-    color: #1E8449;
+    color: #7986CB;
     font-style: italic;
-    font-family: serif;
+    font-family: 'Oswald', sans-serif;
     padding-left: 1%;
     font-size: 27px;
     margin: 5px 0px;
@@ -33,7 +33,7 @@ main {
     text-decoration: underline; }
   main div {
     width: 625px;
-    padding-left: 1%;
+    padding-left: 3%;
     margin: 7px 0px;
     height: 200PX; }
     main div img {
@@ -48,18 +48,27 @@ main {
       font-size: 18px;
       padding-left: 1%;
       margin: 3px 0px;
-      grid-area: texto; }
+      grid-area: texto;
+      width: 500px; }
     main div span {
       margin: 2px; }
     main div h2 {
-      color: #1E8449;
+      color: #9FA8DA;
       font-style: italic;
-      font-family: serif;
+      font-family: 'Oswald', sans-serif;
       padding-left: 1%;
       font-size: 27px;
       margin: 5px 0px;
       grid-area: título;
       text-decoration: underline; }
+  main p {
+    color: black;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding-left: 1%;
+    margin: 3px 0px;
+    grid-area: texto; }
   main a {
     color: black;
     font-style: italic;
